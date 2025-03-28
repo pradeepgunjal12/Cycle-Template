@@ -1,0 +1,25 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+@media only screen and (min-width:776px){
+    
+    .hero-content h1{
+    font-size: 3.3em;
+}
+.hero-content p{
+    font-weight: 500;
+    font-size: x-large;
+}
+.hero-a{
+    font-size: large;
+}
+.hero-b{
+    font-size: large;
+}
+
+}

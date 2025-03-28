@@ -1,0 +1,362 @@
+:root{
+    --nav-color:rgb(14, 49, 76);
+    --googl-color:rgb(33, 37, 41);
+    --font-color:#fff;
+    --pink-color:rgb(238, 9, 121);
+    --flexi-color:#212529;
+    --my-color:#373042;
+    --footer-color:rgb(0, 0, 0);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+.nav-320{
+    background-color: var(--nav-color);
+}
+.hero{
+    background-color: var(--googl-color);
+    color: #fff;
+    flex-direction: column;
+}
+.hero-content{
+    flex-direction: column;
+}
+.hero-content h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+.hero-a{
+    background-image: linear-gradient(to right, rgb(255, 0, 200), rgb(247, 128, 17));
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: small;
+}
+.hero-a:hover{
+    background-image: linear-gradient(to right,rgb(9, 160, 135),rgb(132, 235, 253));
+}
+.hero-b:hover{
+  color: var(--pink-color);
+}
+.hero-b{
+    color: #fff;
+}
+.girl-img{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.girl-img img{
+    width: 100%;
+}
+.girl-back{
+    position: absolute;
+    top: 384px;
+}
+.girl-back img{
+    width: 95%;
+    height: auto;
+}
+
+.google-add{
+    background-color: var(--nav-color);
+}
+.about-wrapper{
+    background-color: var(--googl-color);
+    color: #fff;
+       
+}
+.about-wrapper{
+    background-image: url(../images/illustrations/vector-shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px ;
+    
+}
+.fl-logo-1 ol{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.about-span{
+    color: var(--pink-color);
+}
+.flack-logo-1 i{
+    font-size: 1.5rem;
+    color: var(--pink-color);
+}
+.flack-span{
+    font-weight: 500;
+    font-size: large;
+    
+}
+.sign-up{
+    color: var(--pink-color);
+}
+.founder-name p{
+    font-size: large;
+    font-weight: 600;   
+}
+.flexibilty{
+    background-color: var(--googl-color);
+    color: #fff;
+}
+.flexi-img img{
+    width: 90%;
+}
+.flexi-ol-1{
+    border-radius: 8px;
+    background-color: var(--nav-color);
+    font-size: large;
+}
+.flexi-ol-1 i{
+    font-size: 30px;
+    margin-right: 10px
+    
+}
+.flexi-head span{
+    color: var(--pink-color);
+}
+.contact-wrapper{
+    background-color: var(--googl-color);
+    padding: 50px 10px;
+    color: #fff;
+}
+.contact-us{
+    background: url(https://templates.envytheme.com/luvion/default/assets/img/home-six/funfacts-style-bg.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px 0px;   
+}
+.contact-data{
+    border: 1px solid rgb(199, 178, 178);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+
+}
+.contact-data a{
+    text-decoration: none;
+    padding: 7px 15px;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--googl-color);
+    text-transform: uppercase;
+    font-size: small;
+    border-radius: 5px;
+}
+.contact-data a:hover{
+    background-image: linear-gradient(to right,rgb(9, 160, 135),rgb(132, 235, 253));
+}
+.security-wrapper{
+    background-color: var(--googl-color);
+    color: #fff;
+    border-bottom: 1px solid var(--nav-color);
+}
+
+.security-detail{
+    border-left: 1px solid var(--pink-color);
+}
+.security-detail a{
+    color: var(--pink-color);
+    text-transform: uppercase;
+}
+.security-detail:hover{
+    background-color: var(--nav-color);
+}
+.security-wrapper span{
+    color: var(--pink-color);
+}
+.features-wrapper{
+    background-color: var(--googl-color);
+    color: #fff;
+    padding-top: 30px;
+}
+.feature-content span{
+    color: var(--pink-color);
+}
+.feature-detail{
+    border-radius: 5px;
+    background-color: var(--nav-color);
+}
+.feature-img img{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 0px 10px;
+}
+.founder-wrapper{
+   color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(https://templates.envytheme.com/luvion/default/assets/img/home-six/vector-shape-2.png) no-repeat;
+    background-size: 300px ;
+    background-position:left bottom;
+    height: 80vh;
+}
+
+.founder-chat{
+    position: relative;
+    top: 30px;
+    left: 150px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.founder-para{
+    position: relative;
+    top: -100px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.founder-content a{
+    color: #fff;
+    font-size: large;
+    margin-top: -70px ;
+    padding-right: 20px;
+}
+.founder-content a i{
+    font-size: large;
+    font-weight: 900;
+}
+.blog-wrapper{
+    background-color: var(--googl-color);
+    color: #fff;
+    padding: 30px 0px ;
+}   
+.blog-wrapper span{
+    color: var(--pink-color);
+} 
+.fig-a{
+    color: #fff;
+    text-decoration: none;
+    font-size:x-large;
+}
+.fig-a:hover{
+    color: var(--pink-color);
+}
+.blog-read{
+    color: var(--pink-color);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.blog-data{
+    position: relative; 
+}
+.blog-caption{
+    position: relative;
+    margin-top: -50px;
+    z-index: 1;
+    background-color: var(--googl-color);
+    border-top-left-radius: 8px;
+}
+.subscribe-wrapper{
+    background-color: var(--googl-color);
+    color: #fff;
+}
+.subscribe-1{
+    background: url(https://templates.envytheme.com/luvion/default/assets/img/home-six/funfacts-style-bg.jpg) no-repeat;
+    border-radius: 10px;
+}
+.sub-mail{
+    padding: 5px 2px 5px 2px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sub-btn{
+    padding: 6px 10px 6px 10px ;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--nav-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.sub-btn:hover{
+    background-image: linear-gradient(to right,rgb(9, 160, 135),rgb(132, 235, 253));    
+}
+.address-wrapper{
+    background-color: var(--footer-color);
+    color: #fff;
+}
+.social-add ol{
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+.social-add ol li a i{
+    font-size: x-large; 
+}
+.social-add ol li a{
+    color: var(--pink-color);
+}
+.social-add ol li a:hover{
+    color: #fff;
+}
+.add-about a{
+    color: #fff;
+    text-decoration: none;
+}
+.add-about a:hover{
+    color: var(--pink-color);
+}
+.add-about li::marker{
+    color: var(--pink-color);
+}
+.add-about h2{
+    border-bottom: 1px solid var(--pink-color);
+    padding-bottom: 10px;  
+}
+.copyright span{
+    font-size: small;
+}
+.copyright p a{
+    text-decoration: none;
+    color: #fff;
+}
+.copyright p a:hover{
+    color: var(--pink-color);
+}
+.desk-data-nav ol{
+    list-style: none;
+    height:100%;
+}
+.desk-nav{
+    background-color: var(--nav-color);
+}
+.nav-anchors i{
+    font-size: 10px;
+    padding-left:2px;
+   
+}
+.nav-anchors{
+    color: #fff;
+    font-size: large;
+}
+.log-anchor i{
+    color: yellow;
+}
+.log-anchor{
+    color: #fff;
+}
+.log-anchor:hover{
+    color: var(--pink-color);
+}
+.home{
+    color: var(--pink-color);
+}
+.nav-anchors:hover{
+    color: var(--pink-color);
+}
